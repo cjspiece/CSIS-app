@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cjspiece.csis.FacultyActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/faculty"
+        android:textSize="24sp"
+        android:id="@+id/textView1" />
+
+        <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cho" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Il-hyung Cho \nAssociate Professor, \nDepartment chair \n\nClick for Biography"
+                android:textSize="18sp"
+                android:clickable="true"
+                android:onClick="showChoBio"/>
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Space
+                android:layout_height="0dp"
+                android:layout_width="0dp"/>
+            <TextView
+                android:id="@+id/choBiography"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/choBiography"
+                android:textSize="10sp"
+                android:visibility="gone" />
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/corser" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="George P Corser \nAssistant Professor \n\nClick for Biography"
+                android:textSize="18sp"
+                android:clickable="true"
+                android:onClick="showCorserBio"/>
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Space />
+            <TextView
+                android:id="@+id/corserBiography"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/corserBiography"
+                android:textSize="10sp"
+                android:visibility="gone" />
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rahman" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khandaker Abir Rahman \nAssistant professor \n\nClick for Biography"
+                android:textSize="18sp"
+                android:clickable="true"
+                android:onClick="showRahmanBio"/>/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Space />
+            <TextView
+                android:id="@+id/rahmanBiography"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rahmanBiography"
+                android:textSize="10sp"
+                android:visibility="gone" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK" />
+
+    </LinearLayout>
+</ScrollView>

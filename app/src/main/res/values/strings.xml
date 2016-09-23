@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CSIS</string>
+    <string name="title"><![CDATA[Computer Science & Information Systems]]></string>
+    <string name="faculty">Faculty</string>
+    <string name="choBiography">
+        Il-Hyung Cho is an associate professor and chair of the Department of Computer Science at
+        Saginaw Valley State University, Michigan, where he has been since 2003. During 2010-2011
+        he was a Visiting Professor of Bioinformatics lab at Washington State University. He
+        received a B.E. in Electronic &amp; Computer Engineering from Yonsei University in 1987, and
+        an M.S. in Computer Science from Bowling Green State University. He received his Ph.D. in
+        Computer Science from Clemson University in 2000. He worked at Iona Technologies in Boston
+        as a software engineer in 2000-2001, and at Clemson University as visiting lecturer in
+        2001-2003. \n\nHis research interests center on object oriented system design, distributed object systems,
+        software engineering, bioinfomatics tools development, and computer security and forensics.
+        He helped the construction of genome database for Rosaceae Crop (www.rosaceae.org/). He
+        has given many talks in professional conferences and SE&amp;T colloquium, most recently at
+        Oxford University (UK) on the topic of Business Innovation with User Knowledge and IT
+        Technologies.
+    </string>
+    <string name="corserBiography">
+        George Corser is an Assistant Professor of Computer Science and Information Systems (CSIS)
+        at Saginaw Valley State University (SVSU). His research defines and analyzes location
+        privacy and security protocols in vehicle networks. His teaching explores web and mobile
+        app development, theoretical computer science and cybercrime. His professional service
+        includes advisory and leadership positions in SVSU student organizations, international
+        technical societies, and a cybercrime analysis consortium.
+    </string>
+
+    <string name="rahmanBiography">
+        I graduated with PhD in Computational Analysis and Modeling (2013) from Louisiana Tech
+        University, Ruston, USA. Prior that, I received MS and BSc in Computer Science and
+        Engineering from University of Dhaka, Bangladesh in 2008 and 2006 respectively. I
+        received MS in Mathematics (2011) and MS in Computer Science (2013) from Louisiana Tech
+        University. Before joining SVSU in 2013, I was a research assistant from March, 2009
+        to February, 2013 at Center for Secure Cyberspace at Louisiana Tech University.\n\n
+        My research interests include detecting and mitigating cyber-behavioral anomalies,
+        behavioral biometrics, machine learning, knowledge discovery from data, image processing
+        and human activity detection from video. I am a member of IEEE and ACM.
+    </string>
+</resources>
