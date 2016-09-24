@@ -59,4 +59,8 @@ public class FacultyActivity extends AppCompatActivity {
         }
     }
 
+    public void backToMain(View view) {
+        finish();
+    }
+
 }

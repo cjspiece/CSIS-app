@@ -125,7 +125,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BACK" />
+        android:text="BACK"
+        android:onClick="backToMain" />
 
     </LinearLayout>
 </ScrollView>
