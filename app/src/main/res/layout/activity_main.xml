@@ -9,9 +9,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.cjspiece.csis.MainActivity">
 
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/svsu_logo"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
         android:text="Mission"
         android:textSize="24sp"
         android:id="@+id/textView" />
