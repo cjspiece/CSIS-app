@@ -107,7 +107,8 @@
                     android:text="Khandaker Abir Rahman \nAssistant professor \n\nClick for Biography"
                     android:textSize="18sp"
                     android:clickable="true"
-                    android:onClick="showRahmanBio"/>/>
+                    android:onClick="showRahmanBio"/>
+
             </TableRow>
             <TableRow
                 android:paddingTop="5dp"

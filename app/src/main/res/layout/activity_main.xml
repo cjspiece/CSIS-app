@@ -30,7 +30,7 @@
         android:id="@+id/textView2" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="Faculty"
         android:id="@+id/faculty_button"
@@ -38,18 +38,25 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="12dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"
         android:onClick="openFacultyActivity"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="Course Grid"
         android:id="@+id/course_grid_button"
-        android:layout_below="@+id/faculty_button"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/faculty_button"
+        android:layout_toEndOf="@+id/faculty_button"
+        android:layout_marginTop="12dp"
         android:onClick="openCourseGridActivity"/>
 
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/faculty_button"
+        android:src="@drawable/cs_logo"/>
 
 </RelativeLayout>
