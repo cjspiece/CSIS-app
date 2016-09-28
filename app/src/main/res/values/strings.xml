@@ -38,4 +38,5 @@
         and human activity detection from video. I am a member of IEEE and ACM.
     </string>
     <string name="show_img">Tap To Show CIS Plan Chart</string>
+    <string name="show_cs_img">Tap To Show CS Plan Chart</string>
 </resources>

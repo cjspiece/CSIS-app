@@ -8,7 +8,8 @@ import android.widget.TextView;
 
 public class CourseGridActivity extends AppCompatActivity {
 
-    private boolean chartShown = false;
+    private boolean cisChartShown = false;
+    private boolean csChartShown = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,17 +17,30 @@ public class CourseGridActivity extends AppCompatActivity {
         setContentView(R.layout.activity_course_grid);
     }
 
-    public void showPlanChart(View view) {
-
-        if(!chartShown) {
-            chartShown = true;
-            ImageView imgView = (ImageView) findViewById(R.id.plan_img);
-            imgView.setVisibility(View.VISIBLE);
+    public void showCsPlanChart(View view) {
+        if(!csChartShown) {
+            csChartShown = true;
+            ImageView csImgView = (ImageView) findViewById(R.id.cs_plan_img);
+            csImgView.setVisibility(View.VISIBLE);
         }
         else {
-            chartShown = false;
-            ImageView imgView = (ImageView) findViewById(R.id.plan_img);
-            imgView.setVisibility(View.GONE);
+            csChartShown = false;
+            ImageView csImgView = (ImageView) findViewById(R.id.cs_plan_img);
+            csImgView.setVisibility(View.GONE);
+        }
+    }
+
+    public void showPlanChart(View view) {
+
+        if(!cisChartShown) {
+            cisChartShown = true;
+            ImageView cisImgView = (ImageView) findViewById(R.id.plan_img);
+            cisImgView.setVisibility(View.VISIBLE);
+        }
+        else {
+            cisChartShown = false;
+            ImageView cisImgView = (ImageView) findViewById(R.id.plan_img);
+            cisImgView.setVisibility(View.GONE);
         }
 
     }
